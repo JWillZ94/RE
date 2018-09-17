@@ -1,11 +1,11 @@
 import React from 'react';
 import { mount, shallow, render } from 'enzyme';
 
-import App from './App';
+import Home from './Home';
 
-describe('App', () => {
+describe('Home', () => {
   it('should render', () => {
-    const component = render(<App />);
+    const component = render(<Home />);
 
     expect(component).toMatchSnapshot();
   });

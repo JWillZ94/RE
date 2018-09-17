@@ -1,11 +1,11 @@
 import React from 'react';
 import { mount, shallow, render } from 'enzyme';
 
-import App from './App';
+import MainNav from './MainNav';
 
-describe('App', () => {
+describe('MainNav', () => {
   it('should render', () => {
-    const component = render(<App />);
+    const component = render(<MainNav />);
 
     expect(component).toMatchSnapshot();
   });

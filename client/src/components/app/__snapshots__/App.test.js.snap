@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render 1`] = `
+<div>
+  <nav
+    class="navbar navbar-default"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="navbar-header"
+      >
+        <a
+          aria-current="page"
+          class="navbar-brand active"
+          href="/"
+        >
+          RE Genie
+        </a>
+      </div>
+      <ul
+        class="nav navbar-nav"
+      >
+        <li
+          class=""
+          role="presentation"
+        >
+          <a
+            href="#"
+            role="button"
+          >
+            
+          </a>
+          <a
+            aria-current="page"
+            class="active"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class=""
+          role="presentation"
+        >
+          <a
+            href="#"
+            role="button"
+          >
+            
+          </a>
+          <a
+            href="/buy"
+          >
+            Buy
+          </a>
+        </li>
+        <li
+          class=""
+          role="presentation"
+        >
+          <a
+            href="#"
+            role="button"
+          >
+            
+          </a>
+          <a
+            class=""
+            href="/rent"
+          >
+            Rent
+          </a>
+        </li>
+      </ul>
+      <div
+        class="bg-danger"
+      >
+        Homeeee
+      </div>
+    </div>
+  </nav>
+</div>
+`;
