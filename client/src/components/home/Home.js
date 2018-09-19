@@ -1,14 +1,16 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Grid, Row, Col, ButtonToolbar, Button } from 'react-bootstrap';
+
+import './Home.css';
 
 const Home = () => (
   <Grid>
-    <Row>
-      <Col xs={12} md={8}>
-        hey
-      </Col>
-      <Col xs={6} md={4}>
-        yeah
+    <Row className="home-title">
+      <Col>
+        <p>RE Genie</p>
+        <ButtonToolbar>
+          <Button bsStyle="primary" bsSize="lg">Learn More</Button>
+        </ButtonToolbar>
       </Col>
     </Row>
   </Grid>
