@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 
-import './Main-Nav.css';
+import './Main-Nav.scss';
 import Home from '../home/Home';
 import Buy from '../buy/Buy';
 import Rent from '../rent/Rent';

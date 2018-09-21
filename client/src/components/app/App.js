@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import MainNav from '../main-nav/MainNav';
 
 class App extends Component {
