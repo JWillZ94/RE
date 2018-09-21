@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 import './Main-Nav.css';
 import Home from '../home/Home';
@@ -9,28 +8,26 @@ import Rent from '../rent/Rent';
 
 const MainNav = () => (
   <Router>
-    <Navbar className="">
-      <Navbar.Header>
-        <Navbar.Brand>
+    <div className="">
+      <ul>
+        <li>
           <NavLink to="/" exact={true} activeClassName="active">RE Genie</NavLink>
-        </Navbar.Brand>
-      </Navbar.Header>
-      <Nav>
-        <NavItem>
+        </li>
+        <li>
           <NavLink to="/" exact={true} activeClassName="active">Home</NavLink>
-        </NavItem>
-        <NavItem>
+        </li>
+        <li>
           <NavLink to="/buy" activeClassName="active">Buy</NavLink>
-        </NavItem>
-        <NavItem>
+        </li>
+        <li>
           <NavLink to="/rent" activeClassName="active">Rent</NavLink>
-        </NavItem>
-      </Nav>
+        </li>
+      </ul>
 
       <Route exact path="/" component={Home} />
       <Route path="/buy" component={Buy} />
       <Route path="/rent" component={Rent} />
-    </Navbar>
+    </div>
   </Router>
 );
 

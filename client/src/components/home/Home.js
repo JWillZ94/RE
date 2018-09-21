@@ -1,19 +1,16 @@
 import React from 'react';
-import { Grid, Row, Col, ButtonToolbar, Button } from 'react-bootstrap';
 
 import './Home.css';
 
 const Home = () => (
-  <Grid>
-    <Row className="home-title">
-      <Col>
+  <div>
+    <div className="home-title">
+      <div>
         <p>RE Genie</p>
-        <ButtonToolbar>
-          <Button bsStyle="primary" bsSize="lg">Learn More</Button>
-        </ButtonToolbar>
-      </Col>
-    </Row>
-  </Grid>
+        <button className="">Learn More</button>
+      </div>
+    </div>
+  </div>
 );
 
 export default Home;
