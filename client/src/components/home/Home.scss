@@ -1,6 +1,6 @@
 $text-color: #fff;
 
-.home-title {
+#home-title {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/32870/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size: cover;
   display: flex;
@@ -8,4 +8,20 @@ $text-color: #fff;
   align-items: center;
   min-height: 500px;
   color: $text-color;
+}
+
+#featured-properties {
+  list-style-type: none;
+  padding: 2rem;
+}
+
+#quick-links-list {
+  display: flex;
+  list-style-type: none;
+
+  li {
+    margin: 2rem;
+    padding: 2rem;
+  }
+  
 }
