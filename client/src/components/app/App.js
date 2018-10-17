@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import './App.scss';
 import MainNav from '../main-nav/MainNav';
+const AppContext = React.createContext({});
+export const AppProvider = AppContext.Provider;
+export const AppConsumer = AppContext.Consumer;
 
 class App extends Component {
   render() {
+    console.log(AppContext);
     return (
       <div>
         <MainNav />
